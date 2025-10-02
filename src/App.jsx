@@ -76,6 +76,8 @@ import Testimonials from './components/Testimonials';
 import Resources from './components/Resources';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import Partners from './components/partner';
+import RetirementCalculator from './components/RetirementCalculator';
 
 function App() {
   return (
@@ -94,6 +96,7 @@ function App() {
                   <About />
                   <Testimonials />
                   <Resources />
+                  <Partners />
                   <Contact />
                 </>
               }
@@ -103,6 +106,7 @@ function App() {
             <Route path="/services" element={<Services />} />
             <Route path="/resources" element={<Resources />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/retirement" element={<RetirementCalculator/>} />
           </Routes>
         </main>
         <Footer />

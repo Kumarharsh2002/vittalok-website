@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Menu, X, Phone, Mail } from 'lucide-react';
 import { Link } from 'react-router-dom';
+// import company-logo from 'src\assests\company-logo.png'
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -29,17 +30,20 @@ const Header = () => {
       </div>
 
       {/* Main header */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center py-4">
-          <div className="flex items-center">
-            <div className="w-10 h-10 bg-gradient-to-r from-amber-500 to-amber-600 rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-xl">W</span>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex justify-between items-center py-4">
+            <div className="flex items-center">
+              {/* Logo image instead of span */}
+              <img
+                    src="src\assests\company-logo.png" // replace with your actual PNG path
+                    alt="Vittalok Logo"
+                    className="w-60 h-10 object-contain rounded-lg "
+                />
+              
+            
             </div>
-            <div className="ml-3">
-              <h1 className="text-2xl font-bold text-slate-800">Vittalok</h1>
-              <p className="text-sm text-slate-600">Financial Excellence</p>
-            </div>
-          </div>
+
+      
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">

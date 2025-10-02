@@ -1,5 +1,6 @@
 import React from 'react';
 import { BookOpen, TrendingUp, Calculator, FileText, Download, ArrowRight } from 'lucide-react';
+import { Link, } from 'react-router-dom';
 
 const Resources = () => {
   const resources = [
@@ -8,7 +9,8 @@ const Resources = () => {
       title: "Retirement Calculator",
       description: "Calculate how much you need to save for a comfortable retirement",
       type: "Interactive Tool",
-      color: "bg-blue-500"
+      color: "bg-blue-500",
+      link:"/retirement"
     },
     {
       icon: TrendingUp,
@@ -83,9 +85,15 @@ const Resources = () => {
                   </span>
                   <h4 className="font-bold text-lg text-slate-800 mb-3">{resource.title}</h4>
                   <p className="text-slate-600 text-sm mb-4 leading-relaxed">{resource.description}</p>
-                  <button className="flex items-center text-amber-600 font-semibold hover:text-amber-700 transition-colors " onClick={""}>
+                  {/* <button className="flex items-center text-amber-600 font-semibold hover:text-amber-700 transition-colors " onClick={""}>
                     Access Tool <ArrowRight className="w-4 h-4 ml-2" />
-                  </button>
+                  </button> */}
+                  <Link 
+                    to={resource.link} 
+                    className="flex items-center text-amber-600 font-semibold hover:text-amber-700 transition-colors"
+                  >
+                    Access Tool <ArrowRight className="w-4 h-4 ml-2" />
+                  </Link>
                 </div>
               );
             })}
