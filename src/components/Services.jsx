@@ -1,5 +1,6 @@
 import React from 'react';
 import { Shield, FileText, Briefcase, BarChart, Cpu, BookOpen } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Services = () => {
   const services = [
@@ -119,9 +120,9 @@ const Services = () => {
         </div>
 
         <div className="text-center mt-16">
-          <button className="bg-amber-600 text-white px-8 py-4 rounded-lg hover:bg-amber-700 transition-colors font-semibold text-lg shadow-lg hover:shadow-xl">
+          <Link to="/contact" className="bg-amber-600 text-white px-8 py-4 rounded-lg hover:bg-amber-700 transition-colors font-semibold text-lg shadow-lg hover:shadow-xl">
             Schedule a Free Consultation
-          </button>
+          </Link>
         </div>
       </div>
     </section>

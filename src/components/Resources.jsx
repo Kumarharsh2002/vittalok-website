@@ -35,29 +35,29 @@ const Resources = () => {
     }
   ];
 
-  const articles = [
-    {
-      title: "5 Investment Mistakes to Avoid in 2024",
-      excerpt: "Learn about common investment pitfalls and how to avoid them in today's market environment.",
-      date: "March 15, 2024",
-      readTime: "5 min read",
-      image: "https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=400"
-    },
-    {
-      title: "Planning for Healthcare Costs in Retirement",
-      excerpt: "Understanding and preparing for one of retirement's biggest expenses.",
-      date: "March 10, 2024",
-      readTime: "7 min read",
-      image: "https://images.pexels.com/photos/3760263/pexels-photo-3760263.jpeg?auto=compress&cs=tinysrgb&w=400"
-    },
-    {
-      title: "The Power of Compound Interest",
-      excerpt: "How starting early can dramatically impact your long-term wealth building.",
-      date: "March 5, 2024",
-      readTime: "4 min read",
-      image: "https://images.pexels.com/photos/3483098/pexels-photo-3483098.jpeg?auto=compress&cs=tinysrgb&w=400"
-    }
-  ];
+  // const articles = [
+  //   {
+  //     title: "5 Investment Mistakes to Avoid in 2024",
+  //     excerpt: "Learn about common investment pitfalls and how to avoid them in today's market environment.",
+  //     date: "March 15, 2024",
+  //     readTime: "5 min read",
+  //     image: "https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=400"
+  //   },
+  //   {
+  //     title: "Planning for Healthcare Costs in Retirement",
+  //     excerpt: "Understanding and preparing for one of retirement's biggest expenses.",
+  //     date: "March 10, 2024",
+  //     readTime: "7 min read",
+  //     image: "https://images.pexels.com/photos/3760263/pexels-photo-3760263.jpeg?auto=compress&cs=tinysrgb&w=400"
+  //   },
+  //   {
+  //     title: "The Power of Compound Interest",
+  //     excerpt: "How starting early can dramatically impact your long-term wealth building.",
+  //     date: "March 5, 2024",
+  //     readTime: "4 min read",
+  //     image: "https://images.pexels.com/photos/3483098/pexels-photo-3483098.jpeg?auto=compress&cs=tinysrgb&w=400"
+  //   }
+  // ];
 
   return (
     <section id="resources" className="py-20 bg-gray-50">
@@ -100,16 +100,16 @@ const Resources = () => {
           </div>
         </div>
 
-        {/* Articles Section */}
+        {/* Articles Section
         <div>
           <div className="flex justify-between items-center mb-8">
             <h3 className="text-2xl font-bold text-slate-800">Latest Insights</h3>
             <button className="text-amber-600 font-semibold hover:text-amber-700 transition-colors">
               View All Articles →
             </button>
-          </div>
+          </div> */}
           
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {/* <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {articles.map((article, index) => (
               <article key={index} className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden group">
                 <img 
@@ -133,10 +133,10 @@ const Resources = () => {
                 </div>
               </article>
             ))}
-          </div>
-        </div>
+          </div> */}
+        {/* </div> */}
 
-        {/* Newsletter Signup */}
+        {/* Newsletter Signup
         <div className="mt-20 bg-slate-800 rounded-2xl p-8 text-center text-white">
           <h3 className="text-2xl font-bold mb-4">Stay Informed</h3>
           <p className="text-slate-300 mb-6 max-w-2xl mx-auto">
@@ -152,7 +152,7 @@ const Resources = () => {
               Subscribe
             </button>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

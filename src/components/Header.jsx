@@ -50,7 +50,7 @@ const Header = () => {
             <Link to="/" className="text-slate-700 hover:text-amber-600 font-medium transition-colors">Home</Link>
             <Link to="/services" className="text-slate-700 hover:text-amber-600 font-medium transition-colors">Services</Link>
             <Link to="/about" className="text-slate-700 hover:text-amber-600 font-medium transition-colors">About</Link>
-            <Link to="/testimonials" className="text-slate-700 hover:text-amber-600 font-medium transition-colors">Testimonials</Link>
+            {/* <Link to="/testimonials" className="text-slate-700 hover:text-amber-600 font-medium transition-colors">Testimonials</Link> */}
             <Link to="/resources" className="text-slate-700 hover:text-amber-600 font-medium transition-colors">Resources</Link>
             <Link to="/contact" className="text-slate-700 hover:text-amber-600 font-medium transition-colors">Contact</Link>
             <button className="bg-amber-600 text-white px-6 py-2 rounded-lg hover:bg-amber-700 transition-colors font-medium">
@@ -71,12 +71,12 @@ const Header = () => {
         {isMenuOpen && (
           <div className="md:hidden py-4 border-t">
             <nav className="flex flex-col space-y-4">
-              <a href="#home" className="text-slate-700 hover:text-amber-600 font-medium">Home</a>
-              <a href="#services" className="text-slate-700 hover:text-amber-600 font-medium">Services</a>
-              <a href="#about" className="text-slate-700 hover:text-amber-600 font-medium">About</a>
-              <a href="#testimonials" className="text-slate-700 hover:text-amber-600 font-medium">Testimonials</a>
-              <a href="#resources" className="text-slate-700 hover:text-amber-600 font-medium">Resources</a>
-              <a href="#contact" className="text-slate-700 hover:text-amber-600 font-medium">Contact</a>
+              <Link to="/" className="text-slate-700 hover:text-amber-600 font-medium">Home</Link>
+              <Link to="/services" className="text-slate-700 hover:text-amber-600 font-medium">Services</Link>
+              <Link to="/about" className="text-slate-700 hover:text-amber-600 font-medium">About</Link>
+              {/* <Link to="/testimonials" className="text-slate-700 hover:text-amber-600 font-medium">Testimonials</Link> */}
+              <Link to="/resources" className="text-slate-700 hover:text-amber-600 font-medium">Resources</Link>
+              <Link to="/contact" className="text-slate-700 hover:text-amber-600 font-medium">Contact</Link>
               <button className="bg-amber-600 text-white px-6 py-2 rounded-lg hover:bg-amber-700 transition-colors font-medium w-fit">
                 Book Consultation
               </button>

@@ -1,16 +1,20 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
+import tatalogo from '/src/assests/tatacaptial-logo.png'
+import idfclogo from '/src/assests/idfc-logo.png'
+import incredlogo from '/src/assests/incred-logo.png'
+import axisbanklogo from '/src/assests/axisbank-logo.png'
 // import icicilogo from "/assests/ICICI_Bank_Logo.svg.png"
 
 // Example logos (replace with your actual logo URLs or imported images)
 const companies = [
   // { name: "ICICI Bank", logo: "icicilogo" },
-  { name: "Tata Capital", logo: "https://companieslogo.com/img/orig/TATACAPITAL.NS_BIG-ad7a2cbb.png" },
-  { name: "Axis Bank", logo: "https://upload.wikimedia.org/wikipedia/commons/4/4c/Axis_Bank_logo.svg" },
-  { name: "IDFC Bank", logo: "https://upload.wikimedia.org/wikipedia/commons/e/e0/IDFC_FIRST_Bank_logo.png" },
+  { name: "Tata Capital", logo: tatalogo },
+  { name: "Axis Bank", logo: axisbanklogo },
+  { name: "IDFC Bank", logo: idfclogo },
   { name: "Saraswat Bank", logo: "https://www.saraswatbank.com/images/logo.png" },
-  { name: "InCred", logo: "https://www.incred.com/images/logo.png" }
+  { name: "InCred", logo: incredlogo }
 ];
 
 const Partners = () => {

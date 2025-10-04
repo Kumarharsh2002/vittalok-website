@@ -6,28 +6,28 @@ const Footer = () => {
 
   const footerLinks = {
     services: [
-      "Investment Planning",
-      "Wealth Management", 
-      "Retirement Planning",
-      "Real Estate Investment",
-      "Education Planning",
-      "Business Planning"
+      "Assurance Services & Risk Advisory",
+      "Tax Advisory", 
+      "Corporate Secretarial Services",
+      "Consultancy Services",
+      "Information Technology",
+      "Other Services"
     ],
     company: [
       "About Us",
       "Our Team",
-      "Careers",
-      "Press",
-      "Awards",
+      // "Careers",
+      // "Press",
+      // "Awards",
       "Contact"
     ],
     resources: [
-      "Financial Calculator",
+      "Retirement Calculator",
       "Market Insights",
       "Tax Planning Guide",
       "Estate Planning",
-      "Blog",
-      "Newsletter"
+      // "Blog",
+      // "Newsletter"
     ],
     legal: [
       "Privacy Policy",
@@ -40,10 +40,10 @@ const Footer = () => {
   };
 
   const socialLinks = [
-    { icon: Facebook, href: "#", label: "Facebook" },
+    // { icon: Facebook, href: "#", label: "Facebook" },
     { icon: Twitter, href: "#", label: "Twitter" },
     { icon: Linkedin, href: "#", label: "LinkedIn" },
-    { icon: Instagram, href: "#", label: "Instagram" }
+    // { icon: Instagram, href: "#", label: "Instagram" }
   ];
 
   return (
@@ -129,7 +129,7 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Newsletter Signup */}
+        {/* Newsletter Signup
         <div className="bg-slate-800 rounded-xl p-8 mb-12">
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div>
@@ -149,7 +149,7 @@ const Footer = () => {
               </button>
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* Bottom Footer */}
         <div className="border-t border-slate-700 pt-8">

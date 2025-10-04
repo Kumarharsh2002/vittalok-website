@@ -16,7 +16,7 @@ const Contact = () => {
       ...formData,
       [e.target.name]: e.target.value
     });
-  };
+  };9
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -131,12 +131,12 @@ const Contact = () => {
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-amber-500 focus:border-transparent transition-colors"
                     >
                       <option value="">Select a service</option>
-                      <option value="investment-planning">Investment Planning</option>
-                      <option value="wealth-management">Wealth Management</option>
-                      <option value="retirement-planning">Retirement Planning</option>
-                      <option value="real-estate">Real Estate Investment</option>
-                      <option value="education-planning">Education Planning</option>
-                      <option value="business-planning">Business Financial Planning</option>
+                      <option value="investment-planning">Assurance Services & Risk Advisory</option>
+                      <option value="wealth-management">Tax Advisory</option>
+                      <option value="retirement-planning">Corporate Secretarial Services</option>
+                      <option value="real-estate">Consultancy Services</option>
+                      <option value="education-planning">Information Technology</option>
+                      <option value="business-planning">Other Services</option>
                     </select>
                   </div>
                 </div>
