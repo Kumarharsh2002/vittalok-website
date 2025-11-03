@@ -3,32 +3,32 @@ import { Award, Users, Clock, Target } from 'lucide-react';
 
 const About = () => {
   const stats = [
-    { icon: Users, number: "500+", label: "Satisfied Clients" },
-    { icon: Award, number: "$2.5B+", label: "Assets Under Management" },
-    { icon: Clock, number: "15+", label: "Years of Experience" },
+    { icon: Users, number: "300+", label: "Satisfied Clients" },
+    { icon: Award, number: "₹3M+", label: "Assets Under Management" },
+    { icon: Clock, number: "10+", label: "Years of Experience" },
     { icon: Target, number: "98%", label: "Client Retention Rate" }
   ];
 
   const team = [
     {
-      name: "Michael Johnson",
-      role: "Senior Financial Advisor",
-      credentials: "CFP®, CFA",
-      image: "https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=400",
-      description: "15+ years helping clients achieve financial independence through strategic planning."
+      name: "Richi Agrawal",
+      role: "CEO",
+      credentials: "CA",
+      // image: "https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=400",
+      description: "Finance & audit professional with over 10 years of experience in Statutory Audit, Internal Audit, Regulatory Compliance, and financial management, and a qualified Chartered Accountant. "
     },
     {
       name: "Sarah Williams",
       role: "Investment Strategist",
       credentials: "CFA, MBA",
-      image: "https://images.pexels.com/photos/3756679/pexels-photo-3756679.jpeg?auto=compress&cs=tinysrgb&w=400",
+      // image: "https://images.pexels.com/photos/3756679/pexels-photo-3756679.jpeg?auto=compress&cs=tinysrgb&w=400",
       description: "Expert in portfolio management and risk assessment with a focus on sustainable investing."
     },
     {
       name: "David Chen",
       role: "Retirement Planning Specialist",
       credentials: "CFP®, ChFC",
-      image: "https://images.pexels.com/photos/3760263/pexels-photo-3760263.jpeg?auto=compress&cs=tinysrgb&w=400",
+      // image: "https://images.pexels.com/photos/3760263/pexels-photo-3760263.jpeg?auto=compress&cs=tinysrgb&w=400",
       description: "Specializes in comprehensive retirement strategies and estate planning solutions."
     }
   ];
@@ -41,14 +41,12 @@ const About = () => {
           <div>
             <h2 className="text-4xl font-bold text-slate-800 mb-6">About Vittalok</h2>
             <p className="text-lg text-slate-600 mb-6 leading-relaxed">
-              For over 15 years, Vittalok has been the trusted partner for individuals and families 
-              seeking to build, protect, and transfer their wealth. Our team of certified financial planners 
-              and investment professionals brings decades of combined experience to every client relationship.
-            </p>
+             VITTALOK PRIVATE LIMITED, a company registered under the Companies Act, 2013, and recognized under the Startup India initiative and the MSME Act since 2024,
+             <p className="text-lg text-slate-600 mb-6 leading-relaxed">The main objectives of the firm are:</p>
             <p className="text-lg text-slate-600 mb-8 leading-relaxed">
-              We believe that financial planning is not just about numbers—it's about understanding your 
-              dreams, goals, and values, then creating a roadmap to help you achieve them. Our comprehensive 
-              approach ensures that every aspect of your financial life works together harmoniously.
+To provide services related to accounting, bookkeeping, internal and external auditing, financial and tax consultancy, compliance management, payroll processing, financial planning, and allied business and professional support services, whether through digital platforms or traditional methods, and to act as advisors, consultants, or service providers in all such areas.
+            </p>
+            <p className='text-lg text-slate-600 mb-8 leading-relaxed'>To carry on the business of a financial technology company engaged in the development, design, integration, implementation, maintenance and support of financial technology solutions, including but not limited to software, platforms, mobile applications, artificial intelligence (AI), robotic process automation (RPA), blockchain, data analytics, and other digital tools for use in banking, finance, insurance, accounting, taxation and compliance.</p>
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <button className="bg-amber-600 text-white px-6 py-3 rounded-lg hover:bg-amber-700 transition-colors font-semibold">
@@ -67,7 +65,7 @@ const About = () => {
             />
             <div className="absolute -bottom-6 -left-6 bg-amber-600 text-white p-6 rounded-xl shadow-lg">
               <div className="text-2xl font-bold">Trusted by</div>
-              <div className="text-3xl font-bold">500+ Families</div>
+              <div className="text-3xl font-bold">300+ Families</div>
             </div>
           </div>
         </div>

@@ -29,25 +29,26 @@ const Contact = () => {
     {
       icon: Phone,
       title: "Phone",
-      details: ["+1 (555) 123-4567", "+1 (555) 123-4568"],
+      details: ["+91 7838600498"],
       color: "bg-blue-500"
     },
     {
       icon: Mail,
       title: "Email",
-      details: ["info@Vittalok.com", "support@Vittalok.com"],
+      details: ["contact@Vittalok.com"],
       color: "bg-green-500"
     },
     {
       icon: MapPin,
       title: "Office",
-      details: ["123 Financial District", "New York, NY 10004"],
+      // details: ["123 Financial District", "New York, NY 10004"],
+      details: ["D-52, Vikas Marg", "Laxmi Nagar, DL-110092"],
       color: "bg-purple-500"
     },
     {
       icon: Clock,
       title: "Hours",
-      details: ["Mon-Fri: 8:00 AM - 6:00 PM", "Sat: 9:00 AM - 2:00 PM"],
+      details: ["Mon-Sat: 10:00 AM - 7:00 PM"],
       color: "bg-amber-500"
     }
   ];
@@ -117,7 +118,8 @@ const Contact = () => {
                       value={formData.phone}
                       onChange={handleChange}
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-amber-500 focus:border-transparent transition-colors"
-                      placeholder="(555) 123-4567"
+                      placeholder="+91 98765 43210"
+
                     />
                   </div>
                   <div>
@@ -206,7 +208,7 @@ const Contact = () => {
                 For urgent financial matters or time-sensitive questions, call us directly.
               </p>
               <button className="bg-amber-600 text-white px-6 py-3 rounded-lg hover:bg-amber-700 transition-colors font-semibold w-full">
-                Call Now: (555) 123-4567
+                Call Now: 7838600498
               </button>
             </div>
           </div>

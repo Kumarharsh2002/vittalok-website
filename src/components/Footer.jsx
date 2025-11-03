@@ -42,7 +42,7 @@ const Footer = () => {
   const socialLinks = [
     // { icon: Facebook, href: "#", label: "Facebook" },
     { icon: Twitter, href: "#", label: "Twitter" },
-    { icon: Linkedin, href: "#", label: "LinkedIn" },
+    { icon: Linkedin, href: "https://www.linkedin.com/company/vittalok/?viewAsMember=true", label: "LinkedIn" },
     // { icon: Instagram, href: "#", label: "Instagram" }
   ];
 
@@ -64,7 +64,7 @@ const Footer = () => {
             </div>
             <p className="text-slate-300 mb-6 leading-relaxed">
               Your trusted partner in building, protecting, and transferring wealth. 
-              With over 15 years of experience, we help individuals and families 
+              With over 10 years of experience, we help individuals and families 
               achieve their financial goals through comprehensive planning and 
               personalized strategies.
             </p>
@@ -73,15 +73,15 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center">
                 <Phone className="w-5 h-5 text-amber-500 mr-3" />
-                <span className="text-slate-300">+1 (555) 123-4567</span>
+                <span className="text-slate-300">+91 7838600498 </span>
               </div>
               <div className="flex items-center">
                 <Mail className="w-5 h-5 text-amber-500 mr-3" />
-                <span className="text-slate-300">info@Vittalok.com</span>
+                <span className="text-slate-300">contact@vittalok.com</span>
               </div>
               <div className="flex items-center">
                 <MapPin className="w-5 h-5 text-amber-500 mr-3" />
-                <span className="text-slate-300">123 Financial District, New York, NY 10004</span>
+                <span className="text-slate-300">D-52, Vikas Marg, Laxmi Nagar, DL-110092</span>
               </div>
             </div>
           </div>
