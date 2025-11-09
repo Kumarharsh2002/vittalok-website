@@ -11,10 +11,9 @@ const About = () => {
 
   const team = [
     {
-      name: "Richi Agrawal",
-      role: "CEO",
-      credentials: "CA",
-      // image: "https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=400",
+      name: "Ms. Richi Agrawal",
+      role: "Founder & CEO",
+      credentials: "CA, LLB, M.Com",
       description: "Finance & audit professional with over 10 years of experience in Statutory Audit, Internal Audit, Regulatory Compliance, and financial management, and a qualified Chartered Accountant. "
     },
     {
@@ -42,7 +41,7 @@ const About = () => {
             <h2 className="text-4xl font-bold text-slate-800 mb-6">About Vittalok</h2>
             <p className="text-lg text-slate-600 mb-6 leading-relaxed">
              VITTALOK PRIVATE LIMITED, a company registered under the Companies Act, 2013, and recognized under the Startup India initiative and the MSME Act since 2024,
-             <p className="text-lg text-slate-600 mb-6 leading-relaxed">The main objectives of the firm are:</p>
+             <p className="text-lg text-slate-600 mb-6 leading-relaxed">The Company is guided by the following key objectives:</p>
             <p className="text-lg text-slate-600 mb-8 leading-relaxed">
 To provide services related to accounting, bookkeeping, internal and external auditing, financial and tax consultancy, compliance management, payroll processing, financial planning, and allied business and professional support services, whether through digital platforms or traditional methods, and to act as advisors, consultants, or service providers in all such areas.
             </p>
@@ -65,7 +64,7 @@ To provide services related to accounting, bookkeeping, internal and external au
             />
             <div className="absolute -bottom-6 -left-6 bg-amber-600 text-white p-6 rounded-xl shadow-lg">
               <div className="text-2xl font-bold">Trusted by</div>
-              <div className="text-3xl font-bold">300+ Families</div>
+              <div className="text-3xl font-bold">300+ Clients</div>
             </div>
           </div>
         </div>

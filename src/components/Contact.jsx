@@ -35,14 +35,14 @@ const Contact = () => {
     {
       icon: Mail,
       title: "Email",
-      details: ["contact@Vittalok.com"],
+      details: ["contact@vittalok.com"],
       color: "bg-green-500"
     },
     {
       icon: MapPin,
       title: "Office",
       // details: ["123 Financial District", "New York, NY 10004"],
-      details: ["D-52, Vikas Marg", "Laxmi Nagar, DL-110092"],
+      details: ["D-52, Vikas Marg", "Laxmi Nagar,New Delhi-110092"],
       color: "bg-purple-500"
     },
     {

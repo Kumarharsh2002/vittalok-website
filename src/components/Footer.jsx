@@ -43,7 +43,7 @@ const Footer = () => {
     // { icon: Facebook, href: "#", label: "Facebook" },
     { icon: Twitter, href: "#", label: "Twitter" },
     { icon: Linkedin, href: "https://www.linkedin.com/company/vittalok/?viewAsMember=true", label: "LinkedIn" },
-    // { icon: Instagram, href: "#", label: "Instagram" }
+    { icon: Instagram, href: "https://www.instagram.com/vittalok.in/", label: "Instagram" }
   ];
 
   return (
@@ -54,9 +54,9 @@ const Footer = () => {
           {/* Company Info */}
           <div className="lg:col-span-2">
             <div className="flex items-center mb-6">
-              <div className="w-10 h-10 bg-gradient-to-r from-amber-500 to-amber-600 rounded-lg flex items-center justify-center">
+              {/* <div className="w-10 h-10 bg-gradient-to-r from-amber-500 to-amber-600 rounded-lg flex items-center justify-center">
                 <span className="text-white font-bold text-xl">W</span>
-              </div>
+              </div> */}
               <div className="ml-3">
                 <h3 className="text-2xl font-bold">Vittalok</h3>
                 <p className="text-slate-400">Financial Excellence</p>
@@ -64,7 +64,7 @@ const Footer = () => {
             </div>
             <p className="text-slate-300 mb-6 leading-relaxed">
               Your trusted partner in building, protecting, and transferring wealth. 
-              With over 10 years of experience, we help individuals and families 
+              With over 10 years of experience, we help individuals and Clients
               achieve their financial goals through comprehensive planning and 
               personalized strategies.
             </p>
@@ -81,7 +81,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center">
                 <MapPin className="w-5 h-5 text-amber-500 mr-3" />
-                <span className="text-slate-300">D-52, Vikas Marg, Laxmi Nagar, DL-110092</span>
+                <span className="text-slate-300">D-52, Vikas Marg, Laxmi Nagar,New Delhi-110092</span>
               </div>
             </div>
           </div>
